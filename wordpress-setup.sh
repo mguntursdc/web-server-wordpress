@@ -54,5 +54,5 @@ sudo -u www-data sed -i 's/database_name_here/wordpress/' /srv/www/wordpress/wp-
 sudo -u www-data sed -i 's/username_here/wordpress/' /srv/www/wordpress/wp-config.php
 sudo -u www-data sed -i 's/password_here/guntur/' /srv/www/wordpress/wp-config.php
 
-sudo mv web-server-wordpress/wp-config.php /srv/www/wordpress/wp-config.php
+sudo mv wp-config.php /srv/www/wordpress/wp-config.php
 
